@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout your source code from version control
-                git 'https://github.com/hkshitesh/demo-maven-pipeline.git'
+                git 'https://github.com/hkshitesh/SL-MAVEN-8-FEB-BACTH.git'
             }
         }
         stage('Build') {
