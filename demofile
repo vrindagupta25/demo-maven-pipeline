@@ -18,11 +18,5 @@ pipeline {
                 bat 'mvn test'
             }
         }
-        stage('Deploy') {
-            steps {
-                // Deploy your artifact, if necessary
-                // Example: sh 'mvn deploy'
-            }
-        }
     }
 } 
